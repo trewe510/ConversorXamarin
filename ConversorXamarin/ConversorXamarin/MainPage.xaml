@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConversorXamarin.MainPage">
+
+            <StackLayout>
+            <Frame BackgroundColor="LightSkyBlue" Padding="24" CornerRadius="0">
+                <Label Text="Conversor de Moedas 2022 " HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+            </Frame>
+            <Label/>
+            <Label Text="Esta aplicação foi realizada no Xamarin.Forms" TextColor="DimGray" FontAttributes="Italic" FontSize="Subtitle"/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label/>
+            <Label Text=" Como você se chama?" FontSize="16"/>
+            <Entry Keyboard="Text" Placeholder="Informe seu nome" />
+            <Label/>
+            <Button x:Name="Avançar" Text="Avançar" Clicked="Avançar_Clicked"
+                FontAttributes="Italic"></Button>
+            <Image Source="calculator3534" />
+            <Label/>
+            <Label/>
+            <Label Text="Criado por Rafael Machado" FontSize="Small" FontAttributes="Italic" HorizontalTextAlignment="End" VerticalTextAlignment="End"/>
+        </StackLayout>
+    </ContentPage>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConversorXamarin.Page1">
+
+    
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="Bem Vindo"
+                 IconImageSource=""
+                 Order="Primary"
+                 Priority="0" />
+        </ContentPage.ToolbarItems>
+
+        <StackLayout>
+            <Frame BackgroundColor="CornflowerBlue" Padding="18" CornerRadius="0">
+                <Label Text="Conversor de Moedas 2022 " HorizontalTextAlignment="Center" TextColor="White" FontSize="Title" FontAttributes="Bold"/>
+            </Frame>
+
+
+            <Frame BorderColor="Black" 
+               Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="BRL.png"/>
+                    <Label Text=" BRL" 
+                       FontSize="Large"
+                       VerticalOptions="Center" />
+                <Label CharacterSpacing= "6" WidthRequest="150"
+                       BackgroundColor="WhiteSmoke" />
+                <Button BackgroundColor="White" HorizontalOptions="EndAndExpand" ImageSource="Calc2.png" Clicked="Button_Clicked"/>
+
+            </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black"
+               Padding="5">
+                <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                    <Image Source="USA.png"/>
+                <Label Text="USD"
+                       FontSize="Large"
+                       VerticalOptions="Center"/>
+                <Label CharacterSpacing= "6" WidthRequest="150"
+                       BackgroundColor="WhiteSmoke"/>               
+                      
+                <Button Text="" HeightRequest="60" FontSize="12" BackgroundColor="White" HorizontalOptions="EndAndExpand" ImageSource="Calc2.png" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black"
+               Padding="5">
+                <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                    <Image Source="EUR.png"/>
+                    <Label Text="EUR"
+                       FontSize="Large"
+                       VerticalOptions="Center" />
+                <Label CharacterSpacing= "6" WidthRequest="150"
+                       BackgroundColor="WhiteSmoke"/>
+
+                <Button Text="" FontSize="12" BackgroundColor="White" HorizontalOptions="EndAndExpand" ImageSource="Calc2.png" Clicked="Button_Clicked" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black"
+               Padding="5">
+                <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                    <Image Source="UK.png"/>
+                    <Label Text="GBP"
+                       FontSize="Large"
+                       VerticalOptions="Center" />
+                <Label CharacterSpacing= "6" WidthRequest="150"
+                       BackgroundColor="WhiteSmoke"/>
+                <Button Text="" FontSize="12" BackgroundColor="White" HorizontalOptions="EndAndExpand" ImageSource="Calc2.png" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black"
+               Padding="5">
+                <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                    <Image Source="CND.png"/>
+                    <Label Text="CAD"
+                       FontSize="Large"
+                       VerticalOptions="Center" />
+                <Label CharacterSpacing= "6" WidthRequest="150"
+                       BackgroundColor="WhiteSmoke"/>
+                <Button Text="" FontSize="12" BackgroundColor="White" HorizontalOptions="EndAndExpand" ImageSource="Calc2.png" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black"
+               Padding="5">
+                <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                    <Image Source="JPA.png"/>
+                    <Label Text="JPY"
+                       FontSize="Large"
+                       VerticalOptions="Center" />
+                <Label CharacterSpacing= "6" WidthRequest="150"
+                       BackgroundColor="WhiteSmoke"/>
+                <Button Text="" FontSize="12" BackgroundColor="White" HorizontalOptions="EndAndExpand" ImageSource="Calc2.png" Clicked="Button_Clicked" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
